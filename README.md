@@ -1,6 +1,6 @@
 ### It's time to see the world.
 
-#Do it now, with [Compass](https://louisiaegerv.github.io/noteboard).
+#Do it now, with [Compass](https://louisiaegerv.github.io/compass).
 
 Compass is a responsive demo website which incorporates Google Maps API, Bootstrap, and jQuery UI.
 
