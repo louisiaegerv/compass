@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Compass &#10070 by Louis</title>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> </head>
+
+<body>
+   
+    <div class="input"> <img src="img/compass2.png" width="120px" alt="">
+        <input id="address" type="text" placeholder="Enter a location...">
+        <p id='credits'>Made by <a href="https://louisiaegerv.github.io/resume/">Louis Iaeger</a></p>
+    </div>
+    
+    <div class="row">
+       
+        <div class="col-sm-6">
+            <div id="map"></div>
+        </div>
+        
+        <div class="col-sm-6">
+            <div id="pano"></div>
+        </div>
+        
+    </div>
+    
+    <!---------- Scripts ----------->
+    <!-- Javascript, jQuery, and Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- My map code -->
+    <script src='js/mapsScript.js'></script>
+    <!-- Call to Google Map API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1CrXljUdcT0KcBfrLZuKBRu4VxRrUkzM&libraries=places&callback=initMap" async defer></script>
+    <!------------------------------->
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+* { margin: 0; }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vmin;
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;}
+    .row {
+        height: 100%; }
+        .row .col-sm-6 {
+            height: 100%;
+            padding-left: 0;
+            padding-right: 0; }
+
+.input {
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 17% !important;
+    min-width: 250px !important;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    background: rgba(0, 0, 0, .7);
+    padding: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); }
+    .input:hover {
+        box-shadow: 0px 0px 20px rgba(255, 153, 0, 1);
+        cursor: move;}
+    .input:active {
+        box-shadow: 0px 0px 25px rgba(0, 153, 255, 1); }
+    .input img {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 60%; }
+    .input input {
+        padding: 10px;
+        border: 0px solid;
+        border-radius: 2px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        font-size: 15px; }
+        .input #address {
+            width: 80%;
+            text-overflow: ellipsis;
+            font-weight: 300;
+            margin-bottom: 10px;}
+        .input p {
+            font-size: 11px;
+            color: #fff;}
+            .input p a {
+                text-decoration: none;
+                font-style: none;
+                color: #FFF; }
+                .input p a:hover {
+                    color: rgb(255, 153, 0); }
+                .input p a:active {
+                    color: rgb(0, 153, 255); }
+
+
+#map, #pano {
+    height: 100%;
+    width: 100%;
+
+    float: left; }
+    .momHouse {
+        float: left;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+
+@media screen and (max-width: 767px) {
+    .row .col-sm-6 {
+        height: 50%;
+    }
+}
